@@ -15,6 +15,7 @@ Class SimpleCarBuilder implements ICarBuilder{
 	}
 	public function _SetPrice_day($price){
 		$this->Car->price_day=$price;
+		return true;
 	}
 	public function _SetManufacturer($man){
 		$this->Car->manufacturer=$man;
